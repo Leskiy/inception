@@ -1,0 +1,134 @@
+using System;
+
+namespace Homework_2_Riddles
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int ok = 0;
+            Console.WriteLine("Mary’s father has five daughters – Nana, Nene, Nini, Nono. What is the fifth daughter’s name??");
+            string text1 = Console.ReadLine();
+            switch (text1)
+            {
+                case "Mary":
+                    Console.WriteLine("Gooood boooy!!!");
+                    ok = ok + 1;
+                    break;
+                default:
+                     Console.WriteLine("oops!!! no");
+                     break;
+            }
+            Console.WriteLine("I do not have wings, but I can fly. I don’t have eyes, but I can cry! What am I?");
+            string text2 = Console.ReadLine();
+            switch (text2)
+            {
+                case "a cloud":
+                    Console.WriteLine("YEEEp!");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("hmmmm... NO");
+                    break;
+            }
+            Console.WriteLine("If I drink, I die. If I eat, I am fine. What am I?");
+            string text3 = Console.ReadLine();
+            switch (text3)
+            {
+                case "fire":
+                    Console.WriteLine("well done");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("failure");
+                    break;
+            }
+            Console.WriteLine("I can be thin or thick.I have a lot of pieces of paper.I usually have pictures, too. You can read me.");
+            string text4 = Console.ReadLine();
+            switch (text4)
+            {
+                case "a book":
+                    Console.WriteLine("good fellow");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("looser");
+                    break;
+            }
+            Console.WriteLine("What has a face and two hands but no arms or legs?");
+            string text5 = Console.ReadLine();
+            switch (text5)
+            {
+                case "wathes":
+                    Console.WriteLine("clever");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("badly");
+                    break;
+            }
+            Console.WriteLine("I am a pet. I like mice. I have nine lives. I purr and meow.");
+            string text6 = Console.ReadLine();
+            switch (text6)
+            {
+                case "a cat":
+                    Console.WriteLine("attaboy");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("what a pity");
+                    break;
+            }
+            Console.WriteLine("What is at the end of a rainbow?");
+            string text7 = Console.ReadLine();
+            switch (text7)
+            {
+                case "w":
+                    Console.WriteLine("fine fellow!");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("poorly");
+                    break;
+            }
+            Console.WriteLine("As red as fire. With a fuzzy tale. He likes long walks. It is …");
+            string text8 = Console.ReadLine();
+            switch (text8)
+            {
+                case "a fox":
+                    Console.WriteLine("Grace!");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("not");
+                    break;
+            }
+            Console.WriteLine("Clean, but not water, white, but not snow, sweet, but not ice-cream, what is it?");
+            string text9 = Console.ReadLine();
+            switch (text9)
+            {
+                case "sugar":
+                    Console.WriteLine("clear head");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("never");
+                    break;
+            }
+            Console.WriteLine("Who walks on 4 legs in the morning, 2 legs in the afternoon, and 3 legs in the evening? ");
+            string text10 = Console.ReadLine();
+            switch (text10)
+            {
+                case "man":
+                    Console.WriteLine("Bravo!");
+                    ok = ok + 1;
+                    break;
+                default:
+                    Console.WriteLine("nope");
+                    break;
+            }
+            Console.WriteLine("Thats all!!!");
+            Console.WriteLine($"Right answers:{ok}");
+        }
+    }
+}
